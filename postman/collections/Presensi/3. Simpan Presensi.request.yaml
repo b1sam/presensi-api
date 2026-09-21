@@ -1,0 +1,20 @@
+$kind: http-request
+url: http://127.0.0.1:8000/api/save-presensi
+method: POST
+body:
+  type: formdata
+  content:
+    - type: text
+      key: keterangan
+      value: MASUK
+    - type: text
+      key: latitude
+      value: "-7.457560"
+    - type: text
+      key: longitude
+      value: "109.298798"
+auth:
+  type: bearer
+  credentials:
+    token: ""
+order: 3000

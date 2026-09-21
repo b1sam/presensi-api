@@ -1,0 +1,17 @@
+$kind: http-request
+url: http://127.0.0.1:8000/api/login
+method: POST
+body:
+  type: formdata
+  content:
+    - type: text
+      key: name
+      value: Septiawan Aji
+      disabled: true
+    - type: text
+      key: email
+      value: pegawai_a@gmail.com
+    - type: text
+      key: password
+      value: password
+order: 1000
