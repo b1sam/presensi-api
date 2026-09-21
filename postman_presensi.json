@@ -33,15 +33,14 @@
 					]
 				},
 				"url": {
-					"raw": "http://127.0.0.1:8000/api/login",
-					"protocol": "http",
+					"raw": "https://presensi-api-b1sam.up.railway.app/api/login",
+					"protocol": "https",
 					"host": [
-						"127",
-						"0",
-						"0",
-						"1"
+						"presensi-api-b1sam",
+						"up",
+						"railway",
+						"app"
 					],
-					"port": "8000",
 					"path": [
 						"api",
 						"login"
@@ -56,15 +55,14 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://127.0.0.1:8000/api/get-presensi",
-					"protocol": "http",
+					"raw": "https://presensi-api-b1sam.up.railway.app/api/get-presensi",
+					"protocol": "https",
 					"host": [
-						"127",
-						"0",
-						"0",
-						"1"
+						"presensi-api-b1sam",
+						"up",
+						"railway",
+						"app"
 					],
-					"port": "8000",
 					"path": [
 						"api",
 						"get-presensi"
@@ -81,7 +79,7 @@
 					"bearer": [
 						{
 							"key": "token",
-							"value": "2|N0QOqnsEwlZYA0uz9tmL1Q4B7y8NvuFSU7LcBJq0",
+							"value": "",
 							"type": "string"
 						}
 					]
@@ -109,15 +107,14 @@
 					]
 				},
 				"url": {
-					"raw": "http://127.0.0.1:8000/api/save-presensi",
-					"protocol": "http",
+					"raw": "https://presensi-api-b1sam.up.railway.app/api/save-presensi",
+					"protocol": "https",
 					"host": [
-						"127",
-						"0",
-						"0",
-						"1"
+						"presensi-api-b1sam",
+						"up",
+						"railway",
+						"app"
 					],
-					"port": "8000",
 					"path": [
 						"api",
 						"save-presensi"
